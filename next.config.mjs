@@ -2,8 +2,10 @@
 const nextConfig = {
     images:{
         domains:[
-            "www.ifms.edu.br",
-            "fakestoreapi.com"
+            "fakestoreapi.com",
+            "i.pinimg.com",
+            "seeklogo.com"
+            
         ]
     }
 };
