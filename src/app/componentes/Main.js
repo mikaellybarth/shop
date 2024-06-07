@@ -11,6 +11,9 @@ export default async function Main (){
     {data.map((products) =>
     <div className={styles.card} key={products.id}>
       <p>{products.title}</p>
+      <p>{products.description}</p>
+      <p>{products.category}</p>
+        <p>{products.rating.count}</p>
       <Image
       width={200}
       height={200}
