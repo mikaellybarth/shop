@@ -1,9 +1,11 @@
 import Image from "next/image";
+import styles from "./main.module.css"
 
 
+export default async function Main (){
+  const response = await fetch("https://fakestoreapi.com/products");
+  const data = await response.json();  
 
-export default function Main (){
-    
     return(
 <main className={styles.main}>
     {data.map((products) =>
