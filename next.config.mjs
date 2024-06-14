@@ -2,7 +2,10 @@
 const nextConfig = {
     images:{
         domains:[
-            "ead.ifms.edu.br"
+            "fakestoreapi.com",
+            "i.pinimg.com",
+            "seeklogo.com"
+            
         ]
     }
 };

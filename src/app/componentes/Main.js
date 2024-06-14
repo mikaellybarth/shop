@@ -3,8 +3,7 @@ import Image from "next/image";
 import Spinner from "./Spinner";
 import { useEffect, useState } from "react";
 import styles from "./main.module.css";
-
-
+import styles from "./main.module.css"
 
 export default function Main (){
   const [listProduct, setListProduct] = useState([]);
@@ -54,7 +53,7 @@ export default function Main (){
     return <Spinner/>
    }
 
-   
+  
     return(
       <>
       <div>
@@ -67,6 +66,9 @@ export default function Main (){
     {listProduct.map((products) =>
     <div className={styles.card} key={products.id}>
       <p>{products.title}</p>
+      <p>{products.description}</p>
+      <p>{products.category}</p>
+        <p>{products.rating.count}</p>
       <Image
       width={200}
       height={200}

@@ -2,9 +2,23 @@
     display: flex;
     height: 100px;
     background-color: rgb(202, 202, 241);
-    position: fixed;
     bottom: 0;
     width: 99%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+
+.imgfooter{
+    display: flex;
+
 }
